@@ -2,14 +2,14 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://jocooper2018.github.io/test-react",
+  "homepage": "https://jocooper2018.github.io/test-react/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
